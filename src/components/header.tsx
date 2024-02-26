@@ -12,7 +12,7 @@ import {
 const Header = () => {
   return (
     <>
-      <Card className="fixed flex h-[100px] w-full flex-row items-center justify-between rounded-none border-2 border-x-0 border-t-0 border-white border-white/5 bg-transparent px-4 backdrop-blur-sm sm:px-4 md:px-20 lg:px-40">
+      <Card className="fixed flex h-[100px] w-full min-w-[320px] flex-row items-center justify-between rounded-none border-2 border-x-0 border-t-0 border-white border-white/5 bg-transparent px-10 backdrop-blur-sm sm:px-10 md:px-20 lg:px-40">
         <Drawer>
           <DrawerTrigger asChild>
             <h1 className="text-white">Romans 11:36</h1>
@@ -26,7 +26,7 @@ const Header = () => {
             </div>
           </DrawerContent>
         </Drawer>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-1 sm:gap-4 md:gap-4 lg:gap-4 ">
           <a href="https://github.com/luizredig" target="_blank">
             <Button
               variant={"outline"}
