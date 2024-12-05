@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Card, CardContent } from "./ui/card";
 import {
   Drawer,
@@ -16,22 +17,34 @@ const Header = () => {
         <CardContent className="flex h-full w-full flex-row items-center justify-between p-0 px-5 md:px-40">
           <div className="flex flex-row gap-2">
             {/* GitHub logo */}
-            <Image
-              src="/logos/github-logo.svg"
-              alt="GitHub Logo"
-              width={0}
-              height={0}
-              className="h-[24px] w-[24px] object-contain lg:h-[20px] lg:w-[20px]"
-            />
+            <Link
+              href={"https://github.com/luizredig"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/logos/github-logo.svg"
+                alt="GitHub Logo"
+                width={0}
+                height={0}
+                className="h-[24px] w-[24px] object-contain lg:h-[20px] lg:w-[20px]"
+              />
+            </Link>
 
             {/* LinkedIn logo */}
-            <Image
-              src="/logos/linkedin-logo.svg"
-              alt="LinkedIn Logo"
-              width={0}
-              height={0}
-              className="h-[24px] w-[24px] object-contain lg:h-[20px] lg:w-[20px]"
-            />
+            <Link
+              href={"https://www.linkedin.com/in/luiz-redig/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/logos/linkedin-logo.svg"
+                alt="LinkedIn Logo"
+                width={0}
+                height={0}
+                className="h-[24px] w-[24px] object-contain lg:h-[20px] lg:w-[20px]"
+              />
+            </Link>
           </div>
 
           <Drawer>
