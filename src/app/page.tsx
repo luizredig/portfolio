@@ -1,4 +1,4 @@
-import IntroSection from "./components/sections/IntroSection";
+import IntroSection from "./components/sections/intro-section/IntroSection";
 
 const Page = () => {
   return (

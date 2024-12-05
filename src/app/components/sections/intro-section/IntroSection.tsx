@@ -1,5 +1,5 @@
-import AnimatedTitles from "../home/AnimatedTitles";
-import Section from "./Section";
+import AnimatedTitles from "./AnimatedTitles";
+import Section from "../Section";
 
 const IntroSection = () => {
   return (
