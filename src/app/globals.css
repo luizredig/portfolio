@@ -61,6 +61,6 @@
     @apply border-border;
   }
   body {
-    @apply h-full min-w-80 bg-background text-foreground;
+    @apply dark h-full min-w-80 bg-background text-foreground;
   }
 }
