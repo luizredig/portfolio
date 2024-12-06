@@ -13,7 +13,7 @@ import {
 const Header = () => {
   return (
     <>
-      <Card className="relative flex h-20 max-h-20 w-full items-center rounded-none border-x-0 border-t-0">
+      <Card className="z-10 flex max-h-20 min-h-20 w-full items-center rounded-none border-x-0 border-t-0">
         <CardContent className="flex h-full w-full flex-row items-center justify-between p-0 px-5 md:px-40">
           <div className="flex flex-row gap-2">
             {/* GitHub logo */}
