@@ -1,14 +1,18 @@
+import React, { forwardRef } from "react";
 import AnimatedTitles from "./AnimatedTitles";
-import Section from "../Section";
+import Section, { SectionProps } from "../Section";
 
-const IntroSection = () => {
-  return (
-    <>
-      <Section>
+type IntroSectionProps = SectionProps;
+
+const IntroSection = forwardRef<HTMLDivElement, IntroSectionProps>(
+  (props, ref) => {
+    return (
+      <Section ref={ref} {...props}>
         <AnimatedTitles />
       </Section>
-    </>
-  );
-};
+    );
+  },
+);
 
+IntroSection.displayName = "IntroSection";
 export default IntroSection;
