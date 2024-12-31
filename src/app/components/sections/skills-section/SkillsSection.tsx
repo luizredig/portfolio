@@ -21,8 +21,8 @@ const SkillsSection = async () => {
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
         </div>
 
-        <div className="flex w-full flex-col items-center justify-center px-16 md:px-36">
-          <p className="text-3xl font-bold">Redig's skills</p>
+        <div className="flex w-full flex-col px-16 md:px-40">
+          <p className="text-3xl font-bold">Skills</p>
 
           <div className="flex w-full justify-center">
             <Carousel orientation="horizontal" className="w-full">
