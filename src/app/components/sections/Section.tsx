@@ -10,7 +10,7 @@ const Section = ({ children, className }: SectionProps) => {
   return (
     <div
       className={cn(
-        "relative flex min-h-full flex-1 snap-start items-center px-5 md:px-40",
+        "relative flex min-h-full flex-1 snap-start items-center",
         className,
       )}
     >
