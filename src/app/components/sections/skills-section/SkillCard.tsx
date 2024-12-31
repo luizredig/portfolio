@@ -10,7 +10,7 @@ const SkillCard = ({ skill }: SkillCardProps) => {
   return (
     <>
       <CardContainer className="inter-var">
-        <CardBody className="group/card relative flex h-52 w-52 flex-col items-center justify-center rounded-xl border border-black/[0.1] bg-primary-foreground">
+        <CardBody className="group/card relative flex h-40 w-40 flex-col items-center justify-center rounded-xl border border-black/[0.1] bg-primary-foreground md:h-52 md:w-52">
           <CardItem
             translateZ="50"
             className="flex w-full justify-center font-semibold"

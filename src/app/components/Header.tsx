@@ -48,7 +48,7 @@ const Header = () => {
           </div>
 
           <Drawer>
-            <DrawerTrigger className="absolute left-1/2 flex -translate-x-1/2">
+            <DrawerTrigger className="absolute left-1/2 flex min-w-80 -translate-x-1/2 justify-center">
               <span>Romans 11:36</span>
             </DrawerTrigger>
 

@@ -9,12 +9,12 @@ const ProjectsSection = async () => {
   const projects = await prismaClient.project.findMany();
 
   return (
-    <Section className="px-5 md:px-40">
+    <Section className="flex h-screen flex-col overflow-y-hidden px-5 md:px-40">
       <div className="bg-dot absolute inset-0 flex h-full flex-1 opacity-20">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       </div>
 
-      <div className="flex w-full flex-col justify-center">
+      <div className="flex w-full flex-col overflow-y-auto py-10 [&::-webkit-scrollbar]:hidden">
         <p className="text-3xl font-bold">Projects</p>
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
