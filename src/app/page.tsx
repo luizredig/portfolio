@@ -1,3 +1,5 @@
+import "@/app/css/scrollbar.css";
+
 import IntroSection from "./components/sections/intro-section/IntroSection";
 import ProjectsSection from "./components/sections/projects-section/ProjectsSection";
 
