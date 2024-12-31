@@ -14,7 +14,10 @@ const ProjectsSection = async () => {
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-background [mask-image:radial-gradient(ellipse_at_center,transparent_50%,black)]"></div>
       </div>
 
-      <div className="flex w-full flex-col overflow-y-auto py-10 [&::-webkit-scrollbar]:hidden">
+      <div
+        className="flex w-full flex-col overflow-y-auto py-10 [&::-webkit-scrollbar]:hidden"
+        style={{ overscrollBehavior: "contain" }}
+      >
         <p className="text-3xl font-bold">Projects</p>
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
